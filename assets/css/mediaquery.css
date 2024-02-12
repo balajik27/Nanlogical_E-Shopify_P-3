@@ -24,6 +24,38 @@
 /* /* ---- iphone 13pro max ---------- */
 @media only screen and (max-device-width: 430px) {
 
+    #left_sidebar{
+        z-index: 999;
+        left: -84%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        
+        height: 100%;
+        z-index: 101;
+        overflow-y: scroll;
+        height: 100%;
+        transition: 2s;
+    }
+    .left_sidebar_crt_position{
+        left: 1% !important;
+    }
+    .close_btn{
+        position: fixed;
+        right: 0;
+        left: 84%;
+        top: 0;
+        height: 40px;
+        width: 40px;
+        transition: 5s;
+        opacity: 1 !important;
+    }
+    .close_btn_off{
+        transition: 2s;
+        /* left: 0; */
+        opacity: 0;
+        
+    }
 }
 
 /* /* ---- iphone XR max ---------- */
