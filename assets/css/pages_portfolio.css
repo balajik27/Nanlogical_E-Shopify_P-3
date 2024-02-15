@@ -1,5 +1,4 @@
 
-
 #first_section_portfolio{
     
     background: url(../images/pages/portfolio/portfolio-1-bg_8d80f5e2-d4a2-409b-8224-6ed646db580f.png);
@@ -18,7 +17,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(43, 43, 43, 0.185);
+    background: rgba(39, 39, 39, 0.342);
 }
 .hover_content:hover{
     opacity: 1;
@@ -52,9 +51,23 @@
 .nav-link{
     color: #000 !important;
 }
+
 .nav-item .active{
-    background: #fff !important;
+    background: inherit !important;
     color: #000 !important;
-    border-bottom: 5px solid #000 !important;
+    border-bottom: 1px solid #000 !important;
     
+}
+/* ------------------------------ */
+
+/* -----------------SHOW MORE BTN_---------------- */
+.show_more_btn{
+    color: rgb(0, 0, 0);
+    background: #fff;
+    border: 1px solid #000;
+
+}
+.show_more_btn:hover{
+    color: #fff;
+    background: #000;
 }
