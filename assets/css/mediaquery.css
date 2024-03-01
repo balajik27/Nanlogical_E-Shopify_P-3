@@ -29,7 +29,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    
+    .scroll_container {
+        right: 2px;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */

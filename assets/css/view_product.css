@@ -142,10 +142,10 @@
 
 /* ---------Bootstrap tabs--------- */
 
-.nav-link{
+#product_details_tabs .nav-link{
     color: #000 !important;
 }
-.nav-item .active{
+#product_details_tabs .nav-item .active{
     background: #fff !important;
     color: #000 !important;
     border-bottom: 5px solid #000 !important;
